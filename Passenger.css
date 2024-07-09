@@ -1,0 +1,155 @@
+*{
+    padding:0;
+    margin:0;
+    overflow-x:hidden;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+    color:black;
+}
+#nav{
+    width: 100%;
+    height: 12vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 2px 23px;
+    background-color: aquamarine;
+}
+#main #nav{
+    background-color: aquamarine;
+}
+#nav img{
+    height: 7vh;
+    width: 4vw;
+    border-radius: 23vh;
+    margin-left: 29px;
+}
+#nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#nav ul li{
+    list-style: none;
+}
+#nav ul li a{
+    text-decoration: none;
+    margin: 2px 43px;
+    color: black;
+    font-size: 17px;
+    font-weight: 500;
+}
+#nav ul li a:hover{
+    color:rgb(82, 83, 83);
+}
+
+#nav input{
+    width: 19vw;
+    height:5vh;
+    border-radius: 12vw;
+    border:none;
+    box-shadow: 1px 2px 3px gray;
+    color: black;   
+    background-color: rgb(250, 246, 246);
+    padding-left:23px;
+}
+#nav input:hover{
+    /* color:white; */
+    background-color: rgba(231, 231, 231, 0.719);
+}
+#nav button{
+    margin-right: 53px;
+    width: 8vw;
+    height: 5vh;
+    border-radius: 12vw;
+    border:none;
+    box-shadow: 1px 2px 3px gray;
+    color:rgb(71, 69, 69);
+    background-color: rgba(250, 246, 246, 0.664);
+    cursor: pointer;
+}
+#nav button:hover{
+    color:rgb(100, 95, 95);
+    background-color: rgba(233, 228, 228, 0.719);
+}
+/* body .container{
+    display:flex;
+    justify-content: space-between;
+} */
+#part1{
+    height: 7vh;
+    width: 100%;
+    background-color:rgba(241, 152, 68, 0.774);
+}
+#part2{
+    width: 100%;
+    height: 80%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+#part2 #text{
+    font-size: 3.6vw;
+    font-weight: 100;
+    font-family: 'Times New Roman', Times, serif;
+}
+/* #part2 img{
+    height: 58vh;
+    width: 90vw;
+    border-top-left-radius: 4vw;
+    border-bottom-right-radius: 3vw;
+    box-shadow: 4px 6px 7px gray;
+} */
+#part2 #image{
+    background-image: url("images/airline2.jpg");
+    background-size: cover;
+    height: 58vh;
+    width: 90vw;
+    border-top-left-radius: 4vw;
+    border-bottom-right-radius: 3vw;
+    box-shadow: 4px 6px 7px gray;
+    padding:23px;
+}
+#part2 #image input{
+    margin:33px 12px;
+    height: 5.5vh;
+    width: 14vw;
+    padding-left:12px;
+    border: none;
+    border-radius: 23px;
+    font-size: 14px;
+}
+#btn button{
+    height: 28px;
+    width: 65px;
+    margin-left:4px;
+    border: none;
+    border-radius: 23px;
+    background-color: rgba(207, 148, 100, 0.63);
+    cursor: pointer;
+    box-shadow: 1px 2px 3px gray;
+    list-style: none;
+}
+#btn button:hover{
+    color:rgb(250, 234, 234);
+    background-color: rgba(202, 136, 74, 0.753);
+}
+
+/* .bu{
+    height: 28px;
+    width: 95px;
+    margin-left:2684px;
+    border: none;
+    border-radius: 23px;
+    background-color: rgba(207, 148, 100, 0.63);
+    cursor: pointer;
+    box-shadow: 1px 2px 3px gray;
+    list-style: none;
+    position: absolute;
+    top: 76%;
+    left:55%;
+} */
